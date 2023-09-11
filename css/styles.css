@@ -32,9 +32,9 @@ ol {
 
 img {
   display: block;
-  object-fit: cover;
   max-width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 section {
@@ -179,6 +179,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-card-header {
@@ -224,6 +225,8 @@ section {
 
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+
+  width: calc((100% - 72px) / 4);
 }
 
 .team-card-text {
@@ -273,12 +276,18 @@ section {
   display: flex;
   flex-direction: column;
   background: var(--WHITE, #fff);
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+
   width: calc((100% - 48px) / 3);
 }
 
-.portfolio-pic {
-  margin-bottom: 32px;
+.portfolio-card-text {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px;
+  gap: 8px;
+  border-left: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border-right: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
 .portfolio-card-header {
@@ -287,7 +296,6 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .portfolio-card-paragraph {
@@ -295,7 +303,6 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
 }
 
 .footer {
