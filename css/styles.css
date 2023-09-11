@@ -52,8 +52,7 @@ section {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
-.header-logo,
-.footer-logo,
+.logo,
 .menu-link,
 .contact-link {
   padding: 24px 0;
@@ -64,7 +63,7 @@ section {
   align-items: center;
 }
 
-.header-logo {
+.logo {
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -73,6 +72,8 @@ section {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .header-logo-accent {
@@ -310,18 +311,6 @@ section {
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
   padding: 100px 0;
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.footer-logo {
-  color: var(--IRIS, #4d5ae5);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .footer-logo-accent {
