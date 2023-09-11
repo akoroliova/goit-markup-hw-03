@@ -272,6 +272,7 @@ section {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+  margin: 0 auto;
 }
 
 .portfolio-card {
@@ -279,6 +280,7 @@ section {
   display: flex;
   flex-direction: column;
   background: var(--WHITE, #fff);
+  margin: 0 auto;
 }
 
 .portfolio-card-text {
@@ -313,7 +315,6 @@ section {
 }
 
 .footer-logo {
-  display: inline-block;
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -321,11 +322,14 @@ section {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
 .footer-logo-accent {
   color: var(--CLOUD, #f4f4fd);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-paragraph {
