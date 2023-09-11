@@ -45,6 +45,7 @@ section {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  display: flex;
 }
 
 .top-line {
@@ -58,19 +59,20 @@ section {
   justify-content: space-between;
 }
 
-.logo,
+.header-logo,
+.footer-logo,
 .menu-link,
 .contact-link {
   padding: 24px 0;
 }
 
 .menu-nav {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.logo {
+.header-logo {
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -85,11 +87,8 @@ section {
   margin-right: 76px;
 }
 
-.footer-logo-accent {
-  color: var(--CLOUD, #f4f4fd);
-}
-
 .menu-links-list {
+  display: flex;
   gap: 40px;
 }
 
@@ -100,6 +99,7 @@ section {
 }
 
 .contact-info-list {
+  display: flex;
   font-style: normal;
   gap: 40px;
 }
@@ -133,6 +133,7 @@ section {
 
 .hero {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding: 188px 0;
 }
 
 .hero-header {
@@ -156,7 +157,8 @@ section {
   letter-spacing: 0.04em;
   cursor: pointer;
 
-  display: flex;
+  display: block;
+  min-width: 169px;
   padding: 16px 32px;
   gap: 10px;
   border: 0;
@@ -191,7 +193,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  width: calc((100% - 102px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-card-header {
@@ -200,6 +202,8 @@ section {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
+  margin-bottom: 8px;
 }
 
 .advantages-card-paragraph {
@@ -237,7 +241,7 @@ section {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 
-  width: calc((100% - 102px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .team-card-text {
@@ -246,7 +250,7 @@ section {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  margin: 32px auto;
+  padding: 32px 0;
 }
 
 .team-card-header {
@@ -256,6 +260,7 @@ section {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-card-paragraph {
@@ -288,7 +293,7 @@ section {
   flex-direction: column;
   background: var(--WHITE, #fff);
 
-  width: calc((100% - 78px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-card-text {
@@ -307,6 +312,7 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-card-paragraph {
@@ -318,13 +324,23 @@ section {
 
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding: 100px 0;
 }
 
-.footer-text {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding: 100px 0;
+.footer-logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-logo-accent {
+  color: var(--CLOUD, #f4f4fd);
 }
 
 .footer-paragraph {
