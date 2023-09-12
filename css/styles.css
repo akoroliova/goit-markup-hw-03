@@ -50,6 +50,11 @@ section {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .logo,
 .menu-link,
 .contact-link {
@@ -59,6 +64,7 @@ section {
 .menu-nav {
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
 .logo {
