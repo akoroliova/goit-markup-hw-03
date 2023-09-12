@@ -50,12 +50,6 @@ section {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
-.flex-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .logo,
 .menu-link,
 .contact-link {
@@ -86,12 +80,11 @@ section {
 }
 
 .menu-links-list {
-  display: flex;
   gap: 40px;
 }
 
 .contact-info {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
 }
