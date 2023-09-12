@@ -44,11 +44,16 @@ section {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  display: flex;
 }
 
 .top-line {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
+
+.flex-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo,
@@ -70,8 +75,9 @@ section {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+
   display: inline-block;
+  margin-right: 76px;
   margin-bottom: 16px;
 }
 
